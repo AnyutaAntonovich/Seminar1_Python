@@ -8,7 +8,7 @@
 # 385916 -> yes
 # 123456 -> no
 
-number = str(input('Input your ticket number: '))
+number = input('Input your ticket number: ')
 
 sum1=int(number[0])+int(number[1])+int(number[2])
 sum2=int(number[3])+int(number[4])+int(number[5])

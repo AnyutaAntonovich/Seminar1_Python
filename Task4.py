@@ -10,8 +10,7 @@ n = int(input('Input the length of the chocolate bar: '))
 m = int(input('Input the width of the chocolate bar: '))
 k = int(input('How many slices do you want to break off? '))
 
-if k % m == 0 or k % n == 0:
+if k % m == 0 or k % n == 0 and m * n > k:
     print('Yes')
-    breakpoint
 else:
     print('No')
