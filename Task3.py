@@ -8,11 +8,23 @@
 # 385916 -> yes
 # 123456 -> no
 
-number = input('Input your ticket number: ')
+# number = input('Input your ticket number: ')
+#
+# sum1=int(number[0])+int(number[1])+int(number[2])
+# sum2=int(number[3])+int(number[4])+int(number[5])
+# if sum1==sum2:
+#   print('Yes')
+# else:
+#   print('No')
 
-sum1=int(number[0])+int(number[1])+int(number[2])
-sum2=int(number[3])+int(number[4])+int(number[5])
-if sum1==sum2:
+n = 385916
+print(type(n))
+
+  # Введите ваше решение ниже
+n1 = str(n)
+sum1 = int(n1[0]) + int(n1[1]) + int(n1[2])
+sum2 = int(n1[3]) + int(n1[4]) + int(n1[5])
+if sum1 == sum2:
   print('Yes')
 else:
   print('No')
